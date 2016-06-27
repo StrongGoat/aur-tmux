@@ -4,9 +4,9 @@
 # Contributor: Grigorios Bouzakis <grbzks[at]gmail[dot]com>
 # Contributor: TDY <tdy@gmx.com>
 
-pkgname=tmux-git
+pkgname=tmux-stronggoat
 _gitname=tmux
-pkgver=2.1.r290.g4043790
+pkgver=2.2.r107.gc07296c
 pkgrel=1
 pkgdesc="A terminal multiplexer"
 url="http://tmux.github.io"
@@ -18,7 +18,7 @@ optdepends=('libutempter: Record user sessions to utmp and wtmp files (add to de
 #depends+=('libutempter')
 provides=('tmux')
 conflicts=('tmux')
-source=('git+https://github.com/tmux/tmux.git'
+source=('git+https://github.com/stronggoat/tmux.git#branch=add_named_groups'
         'LICENSE')
 md5sums=('SKIP'
          '71601bc37fa44e4395580b321963018e')
